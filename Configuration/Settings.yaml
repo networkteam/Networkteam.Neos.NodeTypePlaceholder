@@ -1,0 +1,7 @@
+Networkteam:
+  Neos:
+    NodeTypePlaceholder:
+      defaultEelContext:
+        Configuration: 'Neos\Eel\Helper\ConfigurationHelper'
+        I18n: 'Neos\Flow\I18n\EelHelper\TranslationHelper'
+        String: 'Neos\Eel\Helper\StringHelper'

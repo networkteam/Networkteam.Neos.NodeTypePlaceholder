@@ -1,0 +1,19 @@
+{
+    "name": "networkteam/neos-nodetypeplaceholder",
+    "description": "Parse EEL expression in placeholder editor option of nodeType property.",
+    "type": "neos-package",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Networkteam\\Neos\\NodeTypePlaceholder\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Networkteam.Neos.NodeTypePlaceholder"
+        }
+    }
+}
